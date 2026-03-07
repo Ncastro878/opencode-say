@@ -1,0 +1,38 @@
+{
+  "name": "opencode-say",
+  "version": "1.0.0",
+  "description": "Text-to-speech plugin for OpenCode - hear AI responses spoken aloud",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "tts",
+    "text-to-speech",
+    "accessibility",
+    "speech"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/opencode-say"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.2.21",
+    "@types/node": "^25.3.5",
+    "typescript": "^5.8.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
