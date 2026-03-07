@@ -17,11 +17,11 @@
     "accessibility",
     "speech"
   ],
-  "author": "",
+  "author": "nicholas castro",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/opencode-say"
+    "url": "https://github.com/Ncastro878/opencode-say"
   },
   "peerDependencies": {
     "@opencode-ai/plugin": "*"
