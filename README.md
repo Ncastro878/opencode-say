@@ -1,5 +1,7 @@
 # opencode-say
 
+[![npm](https://img.shields.io/npm/v/opencode-say)](https://www.npmjs.com/package/opencode-say)
+
 Text-to-speech plugin for [OpenCode](https://opencode.ai) - hear AI responses spoken aloud.
 
 Uses macOS `say` command for text-to-speech. Perfect for hands-free coding with dictation software.
